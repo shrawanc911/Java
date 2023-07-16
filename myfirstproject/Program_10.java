@@ -1,15 +1,21 @@
-public class Program_4 {
+import java.util.Scanner;
+class Program_10 {
     public static void main(String args[]){
-        Program_4 p4 = new Program_4();
-        p4.arthmatic();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter first value:");
+        int a = sc.nextInt();
+        System.out.println("Enter second value");
+        int b = sc.nextInt();
+        Program_10 p10 = new Program_10();
+        p10.math(a,b);
+
     }
-    void arthmatic(){
-        int a=25;
-        int b=4;
+    void math(int a, int b){
         System.out.println((a+b)+" is the sum of two variables");
         System.out.println((a-b)+" is the subtraction of two variables");
         System.out.println((a*b)+" is the multiplication of two variables");
         System.out.println((float)a/b+" is the division of two variables");
         System.out.println((a%b)+" is the remainder of two variables");
     }
+
 }

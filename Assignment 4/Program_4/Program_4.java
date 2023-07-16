@@ -1,4 +1,4 @@
-public class Program_4 {
+class Program_4 {
     public static void main(String args[]){
         Program_4 p4 = new Program_4();
         p4.arthmatic();

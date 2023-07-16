@@ -38,7 +38,7 @@ class Div{
     void division(){
         int a=25;
         int b=4;
-        System.out.println((a/b)+" is the division of variables");
+        System.out.println((float)a/b+" is the division of variables");
     }
 }
 class Rem{

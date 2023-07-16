@@ -1,13 +1,5 @@
-
-class Program_5 {
-
+class Program_3 {
     public static void main(String args[]){
-        arth a = new arth();
-        a.arthmaticOperations();
-    }
-}
-class arth{
-    void arthmaticOperations(){
         int a=25;
         int b=4;
         System.out.println((a+b)+" is the sum of variables");

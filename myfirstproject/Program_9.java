@@ -1,7 +1,13 @@
-class Program_3 {
+import java.util.Scanner;
+class Program_9 {
     public static void main(String args[]){
-        int a=25;
-        int b=4;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter first value");
+        int a =sc.nextInt(); 
+        System.out.println("Enter second value");
+        int b =sc.nextInt();
+        
+        System.out.println((a+b)+" is the sum of variables");
         System.out.println((a+b)+" is the sum of variables");
         System.out.println((a-b)+" is the Substraction of variables");
         System.out.println((a*b)+" is the Multiplication of variable");
